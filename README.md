@@ -6,3 +6,25 @@ This is a research project in CERLAB CMU, sponsored by YKK AP Inc. The goal for 
 
 ## Structure
 Folder tree:  
+warp_detect
+
+├── CMakeLists.txt
+├── data
+│   ├── AW-1Z_without_noise_front.pcd
+│   ├── AW-2Z_without_noise_front.pcd
+│   ├── helios.ply
+│   ├── pbm150.ply
+│   └── triton.png
+└── src
+    ├── gasd.cpp
+    ├── gldetect.cpp
+    ├── gldetect.hpp
+    ├── lineseg2d.h
+    ├── main.cpp
+    ├── registration.cpp
+    ├── registration.hpp
+    ├── testicp.h
+    ├── visualize.h
+    ├── warpage.cpp
+    └── warpage.hpp
+
