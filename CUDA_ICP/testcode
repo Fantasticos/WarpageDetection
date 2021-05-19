@@ -1,0 +1,12 @@
+currKey = currNode.firstChildIdx + (x + 2 * y + 4 * z);
+		if(octoNodes[currKey].data_startIdx!=-1){
+		parentNode = currNode;
+		currNode = octoNodes[currKey];}
+		else{
+			int i=0;
+			while(i<8){
+				if(i==x + 2 * y + 4 * z)continue;
+				currKey = currNode.firstChildIdx +i;
+				++i;
+			}
+		}
