@@ -46,7 +46,7 @@ For *CUDA_ICP*, please install the necessary [CUDA package](https://docs.nvidia.
 
 ## Parameter explanation and how to run
 
-To run the code, put a room scan cloud in `data`, make sure that the room is in meter, otherwise uncomment line 27 to 29 to do the scaling. Set the input room scan in *main.cpp* line 61, set the bounding boxes for windows in *main.cpp* line 69, set the type of window in *main.cpp* line 84.
+To run the code, put a room scan cloud in `data`, make sure that the room is in meter, otherwise uncomment line 27 to 29 to do the scaling. **Set the input room scan** in *main.cpp* line 61, **set the bounding boxes** for windows in *main.cpp* line 69, **set the type** of window in *main.cpp* line 84.
 
 In the `warp_detect` folder:
 
@@ -72,7 +72,7 @@ Line 174, the last three parameters of `testicp::icp` is 2000, 1e-8 and 0.9, whi
 
 In *warpage.cpp*, line 276, `getWarpage` function. Bounding boxes of 8 edges are manually set by 8 input to *min_pt* and *max_pt*. These parameters can be fine tuned to have better performance.
 
-##Notice
+## Notice
 
 There are several limitations for data also:
 
